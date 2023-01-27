@@ -1,0 +1,61 @@
+// *{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+.navbar{
+    height:80px;
+    .wrapper{
+        padding:10px 30px;
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        .item{
+            display:flex;
+            align-items:center;
+            font-size: 1.125rem;
+        }
+        .left{
+            display:flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .center{
+            display:flex;
+            align-items: center;
+            gap: 25px;
+            font-size: 1.875rem;
+            letter-spacing: 2px;
+        }
+        .right{
+            display:flex;
+            align-items: center;
+            gap: 25px;
+
+            .icons{
+                display:flex;
+                gap: 10px;
+                cursor: pointer;
+                align-items: center;
+                color: #777 ;
+                .cartIcon{
+                    position: relative;
+                    span{
+                        font-size: 0.75rem ;
+                        width: 20px;
+                        right: -10px;
+                        top: -10px;
+                        text-align: center;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: #2879fe;
+                        color: #ffffff;
+                        position: absolute;
+                    }
+                    display: flex;
+                    
+                }
+            }
+        }
+    }
+}
