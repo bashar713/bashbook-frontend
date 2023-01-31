@@ -1,5 +1,5 @@
 import React from 'react'
-import {Slider,FeaturedProducts} from "../../Components/exportComponetns"
+import {Slider,FeaturedProducts,Categories, Contact} from "../../Components/exportComponetns"
 import "./Home.scss";
 
 export default function Home() {
@@ -7,7 +7,9 @@ export default function Home() {
     <div className="home">
       <Slider />
       <FeaturedProducts type="featured" />
+      <Categories/>
       <FeaturedProducts type="trending" />
+      <Contact/>
     </div>
   );
 }
