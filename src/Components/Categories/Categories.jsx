@@ -11,10 +11,8 @@ export default function Categories (){
             src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
-          <Link className="link" to="/products/1">
-            <button>
-                Sale
-            </button>
+          <Link className="link" to="/products/2">
+            <button>Self-Help</button>
           </Link>
         </div>
         <div className="row">
@@ -22,10 +20,8 @@ export default function Categories (){
             src="https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
-          <Link to="/products/1" className="link">
-            <button>
-                Women
-            </button>
+          <Link to="/products/3" className="link">
+            <button>Business</button>
           </Link>
         </div>
       </div>
@@ -36,13 +32,12 @@ export default function Categories (){
             src="https://images.pexels.com/photos/1813947/pexels-photo-1813947.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
-            <Link to="/products/1" className="link">
-          <button>
-              New Season
-          </button>
-            </Link>
+          <Link to="/products/4" className="link">
+            <button>New Season</button>
+          </Link>
         </div>
       </div>
+      {/* 
       <div className="col col-l">
         <div className="row">
           <div className="col">
@@ -84,7 +79,7 @@ export default function Categories (){
           </button>
             </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

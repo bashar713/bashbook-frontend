@@ -9,9 +9,15 @@ export default function Card({item}) {
         <div className="card">
           <div className="image">
             {item?.attributes.isNew && <span>New Book</span>}
-            <img src={process.env.REACT_APP_UPLOAD_URL + item?.attributes?.img?.data?.attributes?.url} alt="" />
+            <img
+              src={
+                process.env.REACT_APP_UPLOAD_URL +
+                item?.attributes?.img?.data?.attributes?.url
+              }
+              alt=""
+            />
           </div>
-          <h2>{item?.title}</h2>
+          <h2>{item?.attributes?.title}</h2>
           <div className="prices">
             <h3>${item?.oldPrice || item?.attributes.price + 10}</h3>
             <h3>${item?.attributes.price}</h3>
